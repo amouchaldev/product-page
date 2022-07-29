@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/boostrap.min.css">
+    <!-- style -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+          <div class="container pb-3 border-bottom">
+            <a class="navbar-brand fw-bold" href="#">sneakers</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Collections <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Men</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Women</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex my-2 my-lg-0">
+                    <span class="form-control me-sm-2">cart</span>
+                    <span class="my-2 my-sm-0"><img src="img/img-profile.jpg" alt="profile image" id="profile-img"></span>
+                </div>
+            </div>
+      </div>
+    </nav>
+    <!-- product -->
+    <main class="mt-5">
+        <div class="container">
+            <div class="row justify-content-evenly">
+                <!-- product image -->
+                <div class="col-md-6 col-lg-5 " id="product-img">
+                    <div class="show w-100 mb-3">
+                        <img src="img/s (1).jpg" alt="" class="w-100 h-100 rounded">
+                    </div>
+                    <ul class="list-unstyled d-flex justify-content-between product-img-list">
+                        <li class="more-img"><img src="img/s (1).jpg" alt="" class="w-100 h-100 rounded active"></li>
+                        <li class="more-img"><img src="img/s (2).jpg" alt="" class="w-100 h-100 rounded"></li>
+                        <li class="more-img"><img src="img/s (3).jpg" alt="" class="w-100 h-100 rounded"></li>
+                        <li class="more-img"><img src="img/s (4).jpg" alt="" class="w-100 h-100 rounded"></li>
+                    </ul>
+                </div>
+                <!-- product info -->
+                <div class="col-md-6 col-lg-5 product-info pt-4 pt-md-4">
+                    <div class="info">
+                        <small class="text-orange text-uppercase">SNEAKERS COMPANY</small>
+                        <h1 class="text-capitalize mb-3">Fall Limited Edition Sneaker</h1>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus consequuntur non esse repellendus vitae? Libero assumenda excepturi facilis voluptatum molestiae exercitationem, alias minima.</p>
+                    </div>
+                    <div class="price mb-3">
+                        <div class="d-flex">
+                            <h3 class="d-inline price">$125.00</h3>
+                            <span class="badge text-orange discount ms-2 mb-2 align-self-center">50%</span><br />
+                        </div>
+                        <del class="old-price text-muted">$250.00</del>
+                    </div>
+                    <div class="d-flex">
+                        <div class="quantity d-inline-block fw-bold d-flex justify-content-between px-3 py-2 rounded col-4">
+                            <span class="less text-orange" role="button">-</span>
+                            <span class="product-count">1</span>
+                            <span class="more text-orange" role="button">+</span>
+                        </div>
+                        <button class="btn bg-orange text-light col-4 ms-3">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
